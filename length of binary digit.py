@@ -1,0 +1,9 @@
+try:
+  a=int(input())
+  x=a%10
+  pro=(x*x)
+  y=a//10
+  duct=(y*y)
+  print(pro+duct)
+except:
+  print('invalid')
