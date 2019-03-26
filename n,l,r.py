@@ -1,13 +1,6 @@
-n=int(input("enter the number:"))
-l=int(input("enter the lower:"))
-r=int(input("enter the higher:"))
-a=list()
-for i in range (0,n):
-    a=int(input("number:"))
-for i in range(0,n):
-    if(a==l):
-        print(l)
-        break
-    elif(a>=l):
-        print(l)
-        break
+n,l,r=map(int,(input()).split())
+a=list(map(int,(input()).split()))
+b=[]
+for i in range(l-1,r):
+    b.append(a[i])
+print(min(b))
