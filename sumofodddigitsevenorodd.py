@@ -11,8 +11,8 @@ while(r):
     s=r%10
     t=t+s
     r=r//100
-if(t%2!=0):
-    print("O")
-else:
+if(t%2==0):
     print("E")
+else:
+    print("O")
 
